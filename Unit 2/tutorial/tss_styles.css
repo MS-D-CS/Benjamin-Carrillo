@@ -22,28 +22,19 @@ html{
 body{
    color: rgb(91, 91, 91);
 }
-
-
-
-
-
 /* Heading Styles */
-h1{
+article#about_tss h1{
    color: white;
    background-color: rgb(235, 177, 131);
 }
-
-
-
-
-
-
+article#about_tss h2{
+   color: white;
+   background-color: rgb(235, 177, 131);
+}
 /* Aside and Blockquote Styles */
-
-
-
-
-
+aside blockquote{
+   color: rgb(232, 165, 116);
+}
 /* Navigation Styles */	
 
 
