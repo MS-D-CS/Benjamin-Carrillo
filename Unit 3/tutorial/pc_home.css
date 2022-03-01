@@ -53,11 +53,29 @@ nav.horizontalNavigation a {
 
 
 /* Left Column Styles */
+section#leftcolumn{
+   clear: left;
+   float: left;
+   width: 33%;
+   padding: 1.5em;
+}
 
 
 
 
 /* Right Column Styles */
+section#rightcolumn{
+   float: left;
+   width: 67%;
+}
+section#rightcolumn img{ 
+   display: block;
+   width: 100%;
+}
+section#rightcolumn > nav.horizontalNavigation li {
+   width: 25%;
+}
+   
 
 
 
