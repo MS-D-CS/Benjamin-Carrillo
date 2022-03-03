@@ -17,17 +17,21 @@
 
 
 /* Infographic Styles */
-
+div.infobox{
+   position: absolute;
+}
 
 
 /* First Infographic */
-
-
-
+div#info1{
+   display: block;
+   top: 20px;
+   left: 5%;
+}
 /* Second Infographic */
+div#info2{
 
-
-
+}
 /* Third Infographic */
 
 
