@@ -27,9 +27,11 @@ body{
 
 /* Body Header Styles */
 body{
-    max-width: 960px;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 960px;
    min-height: 640px;
-   width: 90%;
+   width: 95%;
 }
 body > header > img {
    display: block;
@@ -56,8 +58,7 @@ nav.horizontalNavigation a {
 section#leftColumn{
    clear: left;
    float: left;
-   width: 33%;
-   padding: 1.5em;
+      width: 33%;
 }
 
 
