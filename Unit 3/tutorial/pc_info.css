@@ -14,13 +14,11 @@
 
 /* Main Styles */
 main {
+   overflow: auto;
    position: relative;
-   height: 1400px;
+   height: 450px;
    width: 100%;
 }
-div.infox {display: none;}
-
-
 
 /* Infographic Styles */
 div.infobox{
@@ -47,19 +45,19 @@ div#info3 {
    left: 75%;
 }
 /* Fourth Infographic */
-div.info4 {
+div#info4 {
    display: block;
    top: 510px;
    left: 8%;
 }
 /* Fifth Infographic */
-div.info5 {
+div#info5 {
    display: block;
    top: 800px;
-   left: 48%;
+   left: 3%;
 }
 /* Sixth Infographic */
-div.info6 {
+div#info6 {
    display: block;
    top: 600px;
    left: 48%;
@@ -73,9 +71,9 @@ div#info7 {
    left: 68%;
 }
 /* Eighth Infographic */
-div.info8 {
+div#info8 {
    display: block;
-   top: 1100%;
+   top: 1100px;
    left: 12%;
 }
 
