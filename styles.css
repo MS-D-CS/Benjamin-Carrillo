@@ -50,3 +50,32 @@ li a{
 }.inactive, inactive a{
     color: black;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.post{
+    width: 98%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+    background-color: #f1f1f2;
+}
+.post p{
+    overflow: hidden;
+    margin-bottom: 18px;
+}
+.post ul li{
+    margin-left: 20px;
+}
+footer{
+    text-align: center;
+    height: 50px;
+    color: #256670;
+    margin-top: 10px;
+}
