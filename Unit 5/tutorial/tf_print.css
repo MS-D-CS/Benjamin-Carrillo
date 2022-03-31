@@ -67,5 +67,14 @@ a::after {
    font-weight: bold;
    word-wrap: break-word;
 }
-/* 14:43 */
 /* Page Break Styles */
+article:nth-of-type(n+2) {
+   page-break-before: always;
+}
+img, ol, ul {
+   page-break-inside: avoid;
+}
+p{
+   orphans: 3;
+   widows: 3;
+}
