@@ -31,9 +31,9 @@
       widows: 3;
       orphans: 3;
    }
-article{
+article h1{
    -moz-columns-span: all;
-   -webkit-column-span: all;
+   -webkit-columns-span: all;
    column-span: all;
 }
 }
