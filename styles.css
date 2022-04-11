@@ -46,8 +46,8 @@ li a{
     text-decoration: none;
 }
 .active, .active a, .inactive a:hover{
-    color: white;
-}.inactive, inactive a{
+    color: beige;
+}.inactive, .inactive a{
     color: black;
 }
 *{
